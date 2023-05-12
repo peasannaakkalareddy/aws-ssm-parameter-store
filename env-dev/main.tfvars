@@ -5,12 +5,11 @@ parameters = [
   { name: "dev.frontend.shipping_url", value = "http://shipping-dev.cskvsmi.online:8080/" },
   { name: "dev.frontend.payment_url", value = "http://payment-dev.cskvsmi.online:8080/" },
   { name: "dev.catalogue.mongo", value = "MONGO=true" },
-  { name: "dev.catalogue.mongo_URL", value = "mongodb://mongodb-dev.cskvsmi.online:27017/catalogue" }
+  { name: "dev.catalogue.mongo_URL", value = "mongodb://mongodb-dev.cskvsmi.online:27017/catalogue" },
+  { name: "dev.catalogue.mongodb_endpoint", value = "mongodb-dev.cskvsmi.online" }
+
 
 ]
 
 
 env = "dev"
-#
-#Environment=MONGO=true
-#Environment=MONGO_URL="mongodb://mongodb-dev.cskvsmi.online:27017/catalogue"
