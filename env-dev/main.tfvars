@@ -6,7 +6,11 @@ parameters = [
   { name: "dev.frontend.payment_url", value = "http://payment-dev.cskvsmi.online:8080/" },
   { name: "dev.catalogue.mongo", value = "MONGO=true" },
   { name: "dev.catalogue.mongo_URL", value = "mongodb://mongodb-dev.cskvsmi.online:27017/catalogue" },
-  { name: "dev.catalogue.mongodb_endpoint", value = "mongodb-dev.cskvsmi.online" }
+  { name: "dev.catalogue.mongodb_endpoint", value = "mongodb-dev.cskvsmi.online" },
+  { name: "dev.user.mongo", value = "MONGO=true" },
+  { name: "dev.user.redis_host", value = "redis-dev.cskvsmi.online" },
+  { name: "dev.user.mongo_url", value = "mongodb://mongodb-dev.cskvsmi.online:27017/users" }
+
 
 
 ]
