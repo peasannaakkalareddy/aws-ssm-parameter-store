@@ -12,9 +12,12 @@ parameters = [
   { name: "dev.user.mongo_url", value = "mongodb://mongodb-dev.cskvsmi.online:27017/users" },
   { name: "dev.cart.REDIS_HOST", value = "redis-dev.cskvsmi.online" },
   { name: "dev.cart.CATALOGUE_HOST", value = "catalogue-dev.cskvsmi.online" },
-  { name: "dev.cart.CATALOGUE_PORT", value = "8080" }
+  { name: "dev.cart.CATALOGUE_PORT", value = "8080" },
+  { name: "dev.CART_ENDPOINT", value = "cart-dev.cskvsmi.online:8080" },
+  { name: "dev.DB_HOST", value = "mysql-dev.cskvsmi.online" }
 
 
 
 ]
 env = "dev"
+
