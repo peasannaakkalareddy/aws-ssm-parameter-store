@@ -31,6 +31,8 @@ passwords = [
 { name = "dev.shipping.db_password", value = "RoboShop@1" },
 { name = "dev.payment.AMQP_PASS", value = "roboshop123" },
   { name = "dev.docdb.db_user", value = "roboshop" },
-  { name = "dev.docdb.db_pass", value = "roboshop123456" }
+  { name = "dev.docdb.db_pass", value = "roboshop123456" },
+  { name = "dev.rds.db_pass", value = "roboshop123456" },
+  { name = "dev.rds.db_user", value = "roboshop" }
 
   ]
