@@ -22,7 +22,7 @@ parameters = [
   { name = "dev.payment.user_port", value = "8080" },
   { name = "dev.payment.AMQP_HOST", value = "rabbitmq-dev.cskvsmi.online" },
   { name = "dev.payment.AMQP_USER", value = "roboshop" },
-  { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com" }
+  { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-cfv5gvubpkmf.us-east-1.docdb.amazonaws.com" }
 
 ]
 env = "dev"
@@ -38,4 +38,3 @@ passwords = [
   { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-dev.cluster-cfv5gvubpkmf.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false'" }
 
   ]
-
