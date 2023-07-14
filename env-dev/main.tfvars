@@ -14,6 +14,7 @@ parameters = [
   { name = "dev.cart.catalogue_endpoint", value = "catalogue-dev.cskvsmi.online" },
   { name = "dev.cart.catalogue_port", value = "8080" },
   { name = "dev.shipping.cart_endpoint", value = "cart-dev.cskvsmi.online:8080" },
+  { name = "dev.rds.db_host", value = "rds-dev-rds.cluster-cfv5gvubpkmf.us-east-1.rds.amazonaws.com" },
   { name = "dev.shipping.db_host", value = "mysql-dev.cskvsmi.online" },
   { name = "dev.shipping.db_user", value = "root" },
   { name = "dev.payment.cart_host", value = "cart-dev.cskvsmi.online" },
@@ -25,6 +26,7 @@ parameters = [
   { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-cfv5gvubpkmf.us-east-1.docdb.amazonaws.com" }
 
 ]
+
 env = "dev"
 
 passwords = [
