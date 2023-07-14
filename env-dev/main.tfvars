@@ -8,7 +8,7 @@ parameters = [
   { name = "dev.catalogue.mongo", value = "DOCUMENTDB=true" },
   { name = "dev.user.mongo", value = "DOCUMENTDB=true" },
   { name = "dev.user.redis_host", value = "elasticache-dev-elasticache-001.ei8xum.0001.use1.cache.amazonaws.com" },
-  { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.cskvsmi.online:27017/users" },
+ # { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.cskvsmi.online:27017/users" },
   { name = "dev.user.mongo_endpoint", value = "mongodb-dev.cskvsmi.online" },
   { name = "dev.cart.redis_host", value = "redis-dev.cskvsmi.online" },
   { name = "dev.cart.catalogue_endpoint", value = "catalogue-dev.cskvsmi.online" },
