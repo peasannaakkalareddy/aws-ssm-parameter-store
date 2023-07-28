@@ -1,0 +1,1 @@
+aws ssm get-parameters  --names prod.payment.AMQP_HOST | jq .Parameters[].Value | sed -e 's/"//g'
