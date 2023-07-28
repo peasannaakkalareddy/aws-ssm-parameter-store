@@ -3,9 +3,9 @@ kind: ServiceAccount
 metadata:
   name: oidc-ssm
   annotations:
-    eks.amazon.aws/role-arn: arn:aws:iam::193400300103:role/eks-ssm-ps-prod-role
----
+    eks.amazonaws.com/role-arn: arn:aws:iam::193400300103:role/eks-ssm-ps-prod-role
 
+---
 apiVersion: v1
 kind: Pod
 metadata:
@@ -19,3 +19,4 @@ spec:
       env:
         - name: PARAMS
           value: "prod.payment.cart_port prod.payment.user_port prod.payment.cart_host"
+---
