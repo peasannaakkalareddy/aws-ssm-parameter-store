@@ -23,8 +23,8 @@ parameters = [
   { name = "prod.payment.cart_port", value = "80" },
   { name = "prod.payment.user_host", value = "user-prod.panda4u.online" },
   { name = "prod.payment.user_port", value = "80" },
-  { name = "prod.payment.AMQP_HOST", value = "rabbitmq-prod.panda4u.online" },
-  { name = "prod.payment.AMQP_USER", value = "roboshop" },
+  { name = "prod.payment.amqp_host", value = "rabbitmq-prod.panda4u.online" },
+  { name = "prod.payment.amqp_user", value = "roboshop" },
   { name = "prod.docdb.db_endpoint", value = "docdb-prod.cluster-cmyeikyyy3dr.us-east-1.docdb.amazonaws.com" }
 
 ]
@@ -33,7 +33,7 @@ env = "prod"
 
 passwords = [
 { name = "prod.shipping.db_password", value = "RoboShop@1" },
-{ name = "prod.payment.AMQP_PASS", value = "roboshop123" },
+{ name = "prod.payment.amqp_pass", value = "roboshop123" },
   { name = "prod.docdb.db_user", value = "roboshop" },
   { name = "prod.docdb.db_pass", value = "roboshop123456" },
   { name = "prod.rds.db_pass", value = "roboshop123456" },
